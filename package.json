@@ -1,0 +1,25 @@
+{
+  "name": "click-style",
+  "version": "1.0.0",
+  "description": "Styles the way a button looks when clicked automatically",
+  "main": "jquery.clickstyle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jwbmedia/click-style.git"
+  },
+  "keywords": [
+    "button",
+    "click",
+    "css",
+    "jquery",
+    "jquery-plugin",
+    "plugin",
+    "style"
+  ],
+  "author": "Jacob W. Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwbmedia/click-style/issues"
+  },
+  "homepage": "https://github.com/jwbmedia/click-style"
+}
