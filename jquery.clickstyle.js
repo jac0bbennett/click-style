@@ -14,11 +14,15 @@
                 $(this).text(settings.text);
                 $(this).css("color", settings.color);
                 $(this).css("background", settings.background);
+                if (settings.bordercolor == "none") {
+                    $(this).css("border", "none");
+                } else {
                 $(this).css("border", "1px solid" + settings.border);
+                }
                 $(this).css("transition", settings.transition + "ms" + " " + "ease");
                 if (settings.rotate == "yes") {
-                    $(this).css("transform", "rotate3d(360deg)");
-                    $(this).css("-webkit-transform", "rotate3d(360deg)");
+                    $(this).css("transform", "rotateY(360deg)");
+                    $(this).css("-webkit-transform", "rotateY(360deg)");
                 }
             });
         });
