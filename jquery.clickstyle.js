@@ -1,5 +1,5 @@
 (function ($) {
-    $.fn.sexyButton = function (options) {
+    $.fn.clickStyle = function (options) {
         var settings = $.extend({
             color: "white",
             background: "#29bf35",
