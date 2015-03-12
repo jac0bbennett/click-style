@@ -14,7 +14,15 @@ $(button).clickStyle();
 To change the parameters, do this:
 
 ```
-$(button).clickStyle({onclick: true, color: "white", background: "#29bf35",text: "Success!",rotate: "yes",transition: "1000",bordercolor: "none"});
+$(button).clickStyle({
+  onclick: true, 
+  color: "white", 
+  background: "#29bf35",
+  text: "Success!",
+  rotate: "yes",
+  transition: "1000",
+  bordercolor: "none"
+  });
 ```
 
 Inside the quotation marks change it to your desires.
