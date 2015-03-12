@@ -3,7 +3,7 @@
 Click Style is a simple but good looking and helpful jQuery plugin.  It styles the way a button looks when clicked automatically
 
 ## Usage
-Put the jquery file and the css file(optional) into your website directory.
+Put the jquery.clickstyle.min.js and clickstyle.css(optional) into your website's directory.
 
 In your jquery script add: 
 
