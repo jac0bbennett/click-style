@@ -4,7 +4,7 @@ button {
     width: 125px;
     color: #BF3729;
     background-color: rgba(0, 0, 0, 0);
-    font-family: Open Sans;
+    font-family: Verdana; /* Open Sans is recommended */
     font-size: 12pt;
     cursor: pointer;
     border: 1px solid #BF3729;
