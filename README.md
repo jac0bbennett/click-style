@@ -22,7 +22,7 @@ $('button').clickStyle({
   rotate: "yes",
   transition: "1000",
   bordercolor: "none"
-  });
+});
 ````
 
 Inside the quotation marks change it to your desires.
