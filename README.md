@@ -7,14 +7,14 @@ Put the jquery.clickstyle.min.js and clickstyle.css(optional) into your website'
 
 In your jquery script add: 
 
-``` 
-$(button).clickStyle();
-```
+````javascript
+$('button').clickStyle();
+````
 
 To change the parameters, do this:
 
-```
-$(button).clickStyle({
+````javascript
+$('button').clickStyle({
   onclick: true, 
   color: "white", 
   background: "#29bf35",
@@ -23,6 +23,6 @@ $(button).clickStyle({
   transition: "1000",
   bordercolor: "none"
   });
-```
+````
 
 Inside the quotation marks change it to your desires.
