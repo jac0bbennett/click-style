@@ -1,6 +1,6 @@
 {
   "name": "click-style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Styles the way a button looks when clicked automatically",
   "main": "jquery.clickstyle.js",
   "repository": {
