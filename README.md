@@ -26,3 +26,6 @@ $('button').clickStyle({
 ````
 
 Inside the quotation marks change it to your desires.
+
+## Install with npm
+``` npm install click-style ```
