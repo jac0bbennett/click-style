@@ -19,7 +19,7 @@ $('button').clickStyle({
   color: "white", 
   background: "#29bf35",
   text: "Success!",
-  rotate: "yes",
+  rotate: true,
   transition: "1000",
   bordercolor: "none"
 });
