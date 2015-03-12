@@ -1,32 +1,88 @@
-<title>
-    Jwb Media | Click-Style</title>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-<body>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-    <div class="main">
-        <div class="content" style="margin-top:320px;">
-            <h1>Click-Style <a href="https://github.com/jwbmedia/click-style/archive/master.zip"><button>Download .zip</button></a></h1> Click Style is a simple but good looking and helpful jQuery plugin. It styles the way a button looks when clicked automatically Usage Put the jquery.clickstyle.min.js and clickstyle.css(optional) into your website's directory. In HTML file add:
-            <code>
-<script src="jquery.clickstyle.js"></script>
-            </code> In jQuery script add: $('button').clickStyle(); To change the parameters, do this:
+    <title>Click-Style by jwbmedia</title>
+  </head>
 
-            <code>
-$('button').clickStyle({
-  onclick: true, 
-  color: "white", 
-  background: "#29bf35",
-  text: "Success!",
-  rotate: true,
-  transition: "1000",
-  bordercolor: "none"
-});
-            </code> Inside the quotation marks change it to your desires. Install with npm npm install click-style
-        </div>
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Click-Style</h1>
+        <h2>A jQuery plugin that styles a button when it&#39;s clicked!</h2>
+        <a href="https://github.com/jwbmedia/click-style" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a id="click-style" class="anchor" href="#click-style" aria-hidden="true"><span class="octicon octicon-link"></span></a>Click-Style</h1>
+
+<p>Click Style is a simple but good looking and helpful jQuery plugin.  It styles the way a button looks when clicked automatically</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>Put the jquery.clickstyle.min.js and clickstyle.css(optional) into your website's directory.</p>
+
+<p>In HTML file add:</p>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s1"><span class="pl-pds">"</span>jquery.clickstyle.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre></div>
+
+<p>In jQuery script add: </p>
+
+<div class="highlight highlight-javascript"><pre>$(<span class="pl-s1"><span class="pl-pds">'</span>button<span class="pl-pds">'</span></span>).clickStyle();</pre></div>
+
+<p>To change the parameters, do this:</p>
+
+<div class="highlight highlight-javascript"><pre>$(<span class="pl-s1"><span class="pl-pds">'</span>button<span class="pl-pds">'</span></span>).clickStyle({
+  onclick<span class="pl-k">:</span> <span class="pl-c1">true</span>, 
+  color<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">"</span>white<span class="pl-pds">"</span></span>, 
+  background<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">"</span>#29bf35<span class="pl-pds">"</span></span>,
+  text<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">"</span>Success!<span class="pl-pds">"</span></span>,
+  rotate<span class="pl-k">:</span> <span class="pl-c1">true</span>,
+  transition<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">"</span>1000<span class="pl-pds">"</span></span>,
+  bordercolor<span class="pl-k">:</span> <span class="pl-s1"><span class="pl-pds">"</span>none<span class="pl-pds">"</span></span>
+});</pre></div>
+
+<p>Inside the quotation marks change it to your desires.</p>
+
+<h2>
+<a id="install-with-npm" class="anchor" href="#install-with-npm" aria-hidden="true"><span class="octicon octicon-link"></span></a>Install with npm</h2>
+
+<p><code>npm install click-style</code></p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/jwbmedia/click-style/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/jwbmedia/click-style/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/jwbmedia/click-style"></a> is maintained by <a href="https://github.com/jwbmedia">jwbmedia</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
     </div>
-</body>
-<footer>
-    <div class="copy">
-        <span>&#169; 2015 Jacob W. Bennett</span>
-    </div>
-</footer>
+
+  
+  </body>
 </html>
