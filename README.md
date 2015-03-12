@@ -5,7 +5,13 @@ Click Style is a simple but good looking and helpful jQuery plugin.  It styles t
 ## Usage
 Put the jquery.clickstyle.min.js and clickstyle.css(optional) into your website's directory.
 
-In your jquery script add: 
+In HTML file add:
+
+````html
+<script src="jquery.clickstyle.js"></script>
+````
+
+In jQuery script add: 
 
 ````javascript
 $('button').clickStyle();
